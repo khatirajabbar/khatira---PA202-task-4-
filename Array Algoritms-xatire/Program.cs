@@ -150,22 +150,169 @@ for (int i = 0; i < soz.Length; i++)
 #endregion
 #region seventh task
 // Verilmiş yazılar siyahısında verilmiş hərfdən neçə ədəd olduğunu tapan proqram
-// string[] words = { "sumqayit", "saray", "baki", "ceyranbatan" };
-// char axtarilanHerf = 'a';
-// int totalNumber = 0;
-// foreach (string soz in words)
+/*string[] words = { "sumqayit", "saray", "baki", "ceyranbatan" };
+char axtarilanHerf = 'a';
+int totalNumber = 0;
+foreach (string soz in words)
+{
+    for (int i = 0; i < words.Length; i++)
+    {
+        if (soz[i] == axtarilanHerf)
+        {
+            totalNumber++;
+        }
+
+    }
+}
+Console.WriteLine($"sözlər: {string.Join(", ", words)}");
+Console.WriteLine($"siyahida umimi {totalNumber} eded '{axtarilanHerf}' herfi var.");*/
+#endregion
+#region eighth task
+//Verilmiş yazının əvvəlindəki boşluqlar silinmiş bir string düzəldən proqram (Misalçün verilmiş yazı "   salam necesen?
+//"-dirsə yeni düzələcək string "salam necəsən?   " olmalıdır'
+/*string text = "    salam necesen?    ";
+string netice = "";
+int ilkHerfinIndeksi = -1;
+for (int i = 0; i < text.Length; i++)
+{
+    if (text[i] != ' ')
+    {
+        ilkHerfinIndeksi = i;
+        break;
+    }
+}
+if (ilkHerfinIndeksi != -1)
+{
+    for (int j = ilkHerfinIndeksi; j < text.Length; j++)
+        netice += text[j];
+}
+Console.WriteLine("Orijinal: [" + text + "]");
+Console.WriteLine("Nəticə:   [" + netice + "]");*/
+#endregion
+#region ninth task
+//Verilmiş 2 ədəd üzərində verilmiş simvola uyğun əməliyyat edən proqram. Simvol +,-,* və ya / olmalıdır, əks halda
+//simvolu yenidən daxil edilməsi istənilməlidir.(Misaçün simvol * olarsa verilmiş 2 ədəd vurulacaq
+//və nəticəsi göstəriləcək)
+
+// Console.Write("birinci ededi daxil edin: ");
+// double eded1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("ikinci ededi daxil edin: ");
+// double eded2 = Convert.ToDouble(Console.ReadLine());
+// char emeliyyat;
+// while (true)
 // {
-//     for (int i = 0; i < words.Length; i++)
+//     Console.Write("emaliyyati daxil edin (+, -, *, /): ");
+//     emeliyyat = Convert.ToChar(Console.ReadLine());
+//     if (emeliyyat == '+' || emeliyyat == '-' || emeliyyat == '*' || emeliyyat == '/')
 //     {
-//         if (soz[i] == axtarilanHerf)
-//         {
-//             totalNumber++;
-//         }
-//
+//         break;
+//     }
+//     else
+//     {
+//         Console.WriteLine("duzgun simvol daxil edin");
 //     }
 // }
-// Console.WriteLine($"sözlər: {string.Join(", ", words)}");
-// Console.WriteLine($"siyahida umimi {totalNumber} eded '{axtarilanHerf}' herfi var.");
+// double netice = 0;
+// switch (emeliyyat)
+// {
+//     case '+': netice = eded1 + eded2; break;
+//     case '-': netice = eded1 - eded2; break;
+//     case '*': netice = eded1 * eded2; break;
+//     case '/': 
+//         if (eded2 != 0) netice = eded1 / eded2;
+//         else { Console.WriteLine("sifira bolmek olmaz!"); return; }
+//         break;
+// }
+// Console.WriteLine("\n-------------------------");
+// Console.WriteLine($"Nəticə: {eded1} {emeliyyat} {eded2} = {netice}");
+// Console.WriteLine("-------------------------");
 #endregion
+#region tenth task
+//Verilmiş yazının içində A hərfinin olub olmadığını tapan proqram
+// string metn = "Almanı atdım xarala, qaldı sarala sarala";
+// Console.WriteLine(metn);
+// bool aIsExist = false;
+// for (int i = 0; i < metn.Length; i++)
+// {
+//     if (metn[i] == 'A' || metn[i] == 'a')
+//     {
+//         aIsExist = true;
+//         break;
+//     }
+// }
+// if (aIsExist)
+// {
+//     Console.WriteLine("yazida 'A' herfi movcuddur.");
+// }
+// else
+// {
+//     Console.WriteLine("yazida 'A' herfi movcud deyil.");
+// }
+#endregion
+#region eleventh task
+//Verilmiş yazıda neçə A hərfinin olduğunu tapan proqram
+// string metn = "Almanı atdım xarala, qaldı sarala sarala";
+// Console.WriteLine(metn);
+// int count = default;
+// for (int i = 0; i < metn.Length; i++)
+// {
+//     if (metn[i] == 'A' || metn[i] == 'a')
+//     {
+//         count++;
+//     }
+// }
+// if (count>0)
+//     Console.WriteLine($"Yazida 'A' herfi {count} defe movcuddur.");
+// else
+//     Console.WriteLine("yazida 'A' herfi movcud deyil.");
+#endregion
+#region twelfth task
+//verilmiş müsbət cüt ədədi kradtarına yüksəldən proqram. Daxil edilən ədə musbət və cüt olmadıqca yenidən daxil
+//edilməlidir
+// int number;
+// while (true)
+// {
+//     Console.Write("musbet ve cut bir eded daxil edin: ");
+//     number = Convert.ToInt32(Console.ReadLine());
+//
+//     if (number > 0 && number % 2 == 0)
+//     {
+//         break;
+//     }
+//     else
+//     { 
+//         Console.WriteLine("daxil etdiyiniz eded ya menfidir, ya da tekdir.");
+//         Console.WriteLine("zehmet olmasa yeniden cehd edin.\n");
+//     }
+// }
+// int kvadrat = number * number;
+//
+// Console.WriteLine("------------------------------------");
+// Console.WriteLine($"{number} ededinin kvadrati: {kvadrat}");
+#endregion
+#region 13th task
+// Console.Write("Təhsil növünü daxil edin (programming, design, system): ");
+// string tehsilNovu = Console.ReadLine();
+// switch (tehsilNovu)
+// {
+//     case "programming":
+//         Console.WriteLine("bu tehsilin muddeti: 400 saat.");
+//         break;
+//
+//     case "design":
+//         Console.WriteLine("bu tehsilin muddeti: 250 saat.");
+//         break;
+//
+//     case "system":
+//         Console.WriteLine("bu tehsilin muddeti: 200 saat.");
+//         break;
+//
+//     default:
+//         Console.WriteLine("tehsil novu yanlişdir");
+//         break;
+// }
+#endregion
+
+
 
     

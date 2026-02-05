@@ -12,3 +12,4 @@
 /Users/khatira/Desktop/Array Algoritms-xatire/Array Algoritms-xatire/obj/Debug/net10.0/Array Algoritms-xatire.pdb
 /Users/khatira/Desktop/Array Algoritms-xatire/Array Algoritms-xatire/obj/Debug/net10.0/Array Algoritms-xatire.genruntimeconfig.cache
 /Users/khatira/Desktop/Array Algoritms-xatire/Array Algoritms-xatire/obj/Debug/net10.0/ref/Array Algoritms-xatire.dll
+/Users/khatira/Desktop/Array Algoritms-xatire/Array Algoritms-xatire/obj/Debug/net10.0/Array Algoritms-xatire.sourcelink.json

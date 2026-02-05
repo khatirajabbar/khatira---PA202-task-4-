@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Array Algoritms-xatire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b90294d8dc988ce5cbddb5c9a7f43c77c3ddfd4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Array Algoritms-xatire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Array Algoritms-xatire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
